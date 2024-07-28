@@ -4,8 +4,8 @@ def convert_owp_to_ogg():
     BUFSIZE = 1024  # 缓冲区大小
     xor_key = 0x39  # 异或运算的密钥
 
-    input_directory = "./owp"
-    output_directory = "./ogg"
+    input_directory = "."
+    output_directory = "."
 
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
