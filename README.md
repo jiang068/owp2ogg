@@ -1,5 +1,5 @@
 # owp2ogg
-转换owp音频为可播放的ogg音频
+转换owp音频为可播放的ogg音频，运行好后记得及时删掉转化前的文件，避免重复转化。
 ## 使用方法(电脑里要有python)
 ### 如果你有vscode:  
 复制py文件到owp所在文件夹，vscode里cd进去直接run就可以将目录下的所有owp文件转化成ogg文件。
